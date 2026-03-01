@@ -1,0 +1,13 @@
+name: Disable workflow
+
+on: 
+  push:
+    branches: [ main ]
+
+jobs:
+  disable:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Devesh
+        run: echo "Disable Workflow"
